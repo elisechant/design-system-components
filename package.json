@@ -1,11 +1,12 @@
 {
-	"name": "auds-vanilla",
+	"name": "@auds/repo",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/elisechant/design-system-components"
 	},
-	"devDependencies": {
-
-	}
+	"workspaces": [
+		"packages/*"
+	],
+	"private": true
 }
